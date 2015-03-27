@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <header>
+      <h1> Sireesha Kolli, MD, MPH </h1>
+      <h2> Child, Adoecent and Adult Psychiatrist </h2>
+    </header>
+
+    <nav>
+      <ul>
+        <li>Welcome</li>
+        <li>About Dr. Kolli</li>
+        <li>Conditions Treated</li>
+        <li>Services</li>
+        <li>Contact Information</li>
+        <li>Fees</li>
+        <li>Scheduling</li>
+        <li>Policies</li>
+        <li>eRecord</li>
+        <li>Resources</li>
+      </ul>
+
+    </nav>
+
+    <section id="main">
+      <div class="page-content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </div>
+    </section>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
