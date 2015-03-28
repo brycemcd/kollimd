@@ -4,37 +4,38 @@
   {% include head.html %}
 
   <body>
-    <header>
-      <h1> Sireesha Kolli, MD, MPH </h1>
-      <h2> Child, Adoecent and Adult Psychiatrist </h2>
-    </header>
-
-    <nav>
-      <ul>
-        <li>Welcome</li>
-        <li>About Dr. Kolli</li>
-        <li>Conditions Treated</li>
-        <li>Services</li>
-        <li>Contact Information</li>
-        <li>Fees</li>
-        <li>Scheduling</li>
-        <li>Policies</li>
-        <li>eRecord</li>
-        <li>Resources</li>
-      </ul>
-
-    </nav>
-
-    <section id="main">
-      <div class="page-content">
-        <div class="wrapper">
-          {{ content }}
+    <section class="container">
+      <header id="branding">
+        <h1 class="name"><a href="/"> Sireesha Kolli, MD, MPH </a></h1>
+        <h2 class="tagline"> Child, Adoecent and Adult Psychiatrist </h2>
+      </header>
+      <div id="main">
+        <div id="side-container">
+            <ul class="menu">
+              <li><a href="/">Welcome</a></li>
+              <li><a href="about-dr-kolli.html">About Dr. Kolli</a></li>
+              <li><a href="conditions-treated.html">Conditions Treated</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact-information.html">Contact Information</a></li>
+              <li><a href="fees.html">Fees</a></li>
+              <li><a href="scheduling.html">Scheduling</a></li>
+              <li><a href="policies.html">Policies</a></li>
+              <li><a href="erecord.html">eRecord</a></li>
+              <li><a href="resources.html">Resources</a></li>
+            </ul>
         </div>
-      </div>
-    </section>
 
+        <section id="main-page">
+          <div class="page-content">
+            <div class="entry-content">
+              {{ content }}
+            </div>
+          </div>
+        </section>
+     </div>
+     <div class="clear"></div>
     {% include footer.html %}
-
+    </section>
   </body>
 
 </html>
