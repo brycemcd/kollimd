@@ -29,10 +29,11 @@
 
   <body>
     <section class="container">
-      <header id="branding">
-        <h1 class="name"><a href="/"> Sireesha Kolli, MD, MPH </a></h1>
-        <h2 class="tagline"> Child, Adolescent and Adult Psychiatrist </h2>
+      <header id="branding" itemscope itemtype="http://schema.org/Physician">
+        <h1 class="name"><a href="/"><span itemprop="legalName">Sireesha Kolli, MD, MPH</span></a></h1>
+        <h2 class="tagline" itemprop="medicalSpecialty"> Child, Adolescent and Adult Psychiatrist </h2>
       </header>
+
       <div id="main">
         <div id="side-container">
             <ul class="menu">
@@ -88,29 +89,27 @@ If you are thinking of becoming a NEW patient:</p>
      </div>
      <div class="clear"></div>
     <footer class="site-footer">
-
   <div class="wrapper">
-
     <div class="footer-col-wrapper">
       <div class="footer-col">
-        <address class="text" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <address class="text" itemprop="address" itemscope itemtype="http://schema.org/Physician">
           <span itemprop="name">
             Sireesha Kolli, MD<br/>
           </span>
-          <span itemprop="streetAddress">
-            216 Maple Ave<br/>
-            Red Bank, NJ 07701<br/>
+          <span itemscope itemprop="address" itemtype="http://schema.org/PostalAddress">
+            <span itemprop="streetAddress">
+              216 Maple Ave<br/>
+            <span>
             <span itemprop="addressLocality">Red Bank</span>,
             <span itemprop="addressRegion">NJ</span>
             <span itemprop="postalCode">07701</span>
           </span>
+          <br />
           <span itemprop="telephone"> 732-655-4568 </span>
         </address>
       </div>
     </div>
-
   </div>
-
 </footer>
 
     </section>
